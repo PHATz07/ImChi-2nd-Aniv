@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Our little boomerang</title>
+  <desc id="desc">ภาพประกอบหัวใจสีชมพู ล้อมด้วยดอกไม้ และคำว่า our little boomerang</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff9ef"/>
+      <stop offset=".45" stop-color="#ffedf0"/>
+      <stop offset="1" stop-color="#f8d5df"/>
+    </linearGradient>
+    <linearGradient id="heartFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff9f5"/>
+      <stop offset="1" stop-color="#ffdbe5"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="38%" r="62%">
+      <stop offset="0" stop-color="#fffdfa" stop-opacity=".96"/>
+      <stop offset=".7" stop-color="#fffdfa" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#fffdfa" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="12" stdDeviation="13" flood-color="#ad6578" flood-opacity=".16"/>
+    </filter>
+    <g id="daisy">
+      <g fill="#fffaf3" stroke="#e7b1bf" stroke-width="1.4">
+        <ellipse cx="0" cy="-34" rx="16" ry="34"/>
+        <ellipse cx="0" cy="34" rx="16" ry="34"/>
+        <ellipse cx="-34" cy="0" rx="34" ry="16"/>
+        <ellipse cx="34" cy="0" rx="34" ry="16"/>
+        <ellipse cx="-24" cy="-24" rx="15" ry="31" transform="rotate(-45 -24 -24)"/>
+        <ellipse cx="24" cy="24" rx="15" ry="31" transform="rotate(-45 24 24)"/>
+        <ellipse cx="24" cy="-24" rx="15" ry="31" transform="rotate(45 24 -24)"/>
+        <ellipse cx="-24" cy="24" rx="15" ry="31" transform="rotate(45 -24 24)"/>
+      </g>
+      <circle r="17" fill="#e4b66c"/>
+      <circle r="9" fill="#f1d18d" opacity=".7"/>
+    </g>
+    <g id="pink-flower">
+      <g fill="#f5b3c4" stroke="#df92a7" stroke-width="1.2">
+        <ellipse cx="0" cy="-31" rx="16" ry="31"/>
+        <ellipse cx="0" cy="31" rx="16" ry="31"/>
+        <ellipse cx="-31" cy="0" rx="31" ry="16"/>
+        <ellipse cx="31" cy="0" rx="31" ry="16"/>
+        <ellipse cx="-22" cy="-22" rx="14" ry="28" transform="rotate(-45 -22 -22)"/>
+        <ellipse cx="22" cy="22" rx="14" ry="28" transform="rotate(-45 22 22)"/>
+        <ellipse cx="22" cy="-22" rx="14" ry="28" transform="rotate(45 22 -22)"/>
+        <ellipse cx="-22" cy="22" rx="14" ry="28" transform="rotate(45 -22 22)"/>
+      </g>
+      <circle r="16" fill="#e9b16e"/>
+    </g>
+  </defs>
+
+  <rect width="900" height="1100" fill="url(#bg)"/>
+  <circle cx="450" cy="430" r="350" fill="url(#glow)"/>
+  <circle cx="115" cy="175" r="145" fill="#fff4e6" opacity=".8" filter="url(#blur)"/>
+  <circle cx="800" cy="300" r="120" fill="#f7c8d4" opacity=".4" filter="url(#blur)"/>
+
+  <text x="450" y="133" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" letter-spacing="7" fill="#b57d8c">A LITTLE MOTION</text>
+  <text x="450" y="203" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="53" fill="#9b566b">our little</text>
+  <text x="450" y="268" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="61" fill="#c8758d">boomerang</text>
+
+  <g filter="url(#shadow)">
+    <path d="M450 894C298 780 184 656 184 512c0-124 116-187 211-132 25 14 44 35 55 57 11-22 30-43 55-57 95-55 211 8 211 132 0 144-114 268-266 382Z" fill="url(#heartFill)" stroke="#e3a4b4" stroke-width="3"/>
+    <path d="M450 850C326 756 235 650 235 525c0-92 85-140 155-98 27 16 47 42 60 72 13-30 33-56 60-72 70-42 155 6 155 98 0 125-91 231-215 325Z" fill="none" stroke="#fff8f2" stroke-width="2" opacity=".75" stroke-dasharray="4 9"/>
+  </g>
+
+  <g fill="none" stroke="#d89aaa" stroke-width="2.4" stroke-linecap="round" opacity=".7">
+    <path d="M190 705C135 575 160 420 270 335"/>
+    <path d="M710 705c55-130 30-285-80-370"/>
+  </g>
+  <path d="M270 335l-28 2 14 24Z" fill="#d89aaa" opacity=".8"/>
+  <path d="M630 335l28 2-14 24Z" fill="#d89aaa" opacity=".8"/>
+
+  <g transform="translate(450 590)">
+    <circle r="82" fill="#fffdf9" stroke="#efc3cf" stroke-width="2" opacity=".9"/>
+    <path d="M-18-30l54 30-54 30Z" fill="#c96882" opacity=".9"/>
+  </g>
+
+  <g transform="translate(450 590) rotate(-8)">
+    <path d="M0-130v-60" stroke="#d6a0ad" stroke-width="2" stroke-dasharray="3 6" fill="none"/>
+    <path d="M-54-126H54l-9 82H-45Z" fill="#fffdf9" stroke="#e5b0be" stroke-width="2"/>
+    <text x="0" y="-92" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" letter-spacing="3" fill="#a35b70">2 YEARS</text>
+    <text x="0" y="-63" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="17" fill="#a35b70">of us</text>
+  </g>
+
+  <use href="#daisy" transform="translate(185 500) scale(.95)"/>
+  <use href="#pink-flower" transform="translate(715 500) scale(.9)"/>
+  <use href="#daisy" transform="translate(245 760) scale(.65)"/>
+  <use href="#pink-flower" transform="translate(655 760) scale(.62)"/>
+  <use href="#pink-flower" transform="translate(255 290) scale(.55)"/>
+  <use href="#daisy" transform="translate(645 290) scale(.5)"/>
+
+  <g fill="#e9aebe" opacity=".7">
+    <path d="M735 865c18-18 39-7 32 10-4 11-21 19-21 19s-19-13-20-21c-3-13 9-19 9-8Z"/>
+    <path d="M165 820c13-14 30-5 24 8-3 8-16 15-16 15s-14-10-15-16c-2-10 7-14 7-7Z"/>
+  </g>
+  <g fill="#e5b66f" opacity=".85">
+    <path d="M755 610l4 11 11 4-11 4-4 11-4-11-11-4 11-4Z"/>
+    <path d="M145 660l3 9 9 3-9 3-3 9-3-9-9-3 9-3Z"/>
+  </g>
+
+  <text x="450" y="1004" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="22" fill="#b57d8c">a tiny loop of us</text>
+  <text x="450" y="1042" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14" letter-spacing="4" fill="#c28c9b">PLAY IT BACK, AGAIN AND AGAIN</text>
+</svg>
